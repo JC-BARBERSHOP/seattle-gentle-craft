@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logoWhite from "@/assets/logo-white.png";
 
 const Footer = () => {
   return (
@@ -7,13 +8,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <span className="font-serif text-2xl font-bold text-foreground">JC</span>
-              <div className="h-6 w-px bg-primary/30" />
-              <span className="font-sans text-xs tracking-[0.25em] uppercase text-muted-foreground">
-                Barbershop
-              </span>
-            </div>
+            <img
+              src={logoWhite}
+              alt="JC Barbershop Seattle"
+              className="h-7 w-auto mb-4"
+            />
             <p className="font-sans text-sm text-muted-foreground leading-relaxed">
               Seattle's elevated standard in men's grooming. Precision haircuts, 
               luxury grooming, and an experience designed for modern professionals.

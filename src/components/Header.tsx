@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Phone } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
+import logoWhite from "@/assets/logo-white.png";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -33,14 +34,14 @@ const Header = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-20">
-        <Link to="/" className="flex items-center gap-3">
-          <span className="font-serif text-2xl md:text-3xl font-bold tracking-wide text-foreground">
-            JC
-          </span>
-          <div className="h-8 w-px bg-primary/30" />
-          <span className="font-sans text-xs md:text-sm tracking-[0.25em] uppercase text-muted-foreground">
-            Barbershop
-          </span>
+        <Link to="/" className="flex items-center">
+          <motion.img
+            src={logoWhite}
+            alt="JC Barbershop - Premium Men's Grooming Seattle"
+            className="h-8 md:h-10 w-auto"
+            whileHover={{ opacity: 0.8, scale: 1.02 }}
+            transition={{ duration: 0.3 }}
+          />
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
