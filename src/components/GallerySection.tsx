@@ -75,7 +75,7 @@ const GallerySection = () => {
           className="relative"
         >
           <div
-            className="relative w-full aspect-[3/4] md:aspect-[4/5] max-w-lg mx-auto overflow-hidden rounded-sm"
+            className="relative w-full aspect-[3/4] md:aspect-[4/5] max-w-md mx-auto overflow-hidden rounded-sm"
             style={{
               boxShadow: "0 20px 60px -15px hsl(var(--charcoal-dark) / 0.6)",
             }}
