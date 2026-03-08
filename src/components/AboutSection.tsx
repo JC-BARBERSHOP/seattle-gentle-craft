@@ -75,6 +75,7 @@ const AboutSection = () => {
             Now relocating to Seattle, Joan brings that same standard of excellence
             to the Pacific Northwest. As a professional barber in Seattle, his focus
             remains on detail, consistency, and service that exceeds expectations.
+            Joan is also bilingual, offering services comfortably in both English and Spanish.
           </p>
           <p className="font-sans text-muted-foreground leading-relaxed">
             Whether you're looking for a precision skin fade, a classic taper, or
