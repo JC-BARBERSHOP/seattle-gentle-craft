@@ -11,8 +11,8 @@ const HeroSection = () => {
           src={heroImage}
           alt="Luxury barbershop interior in Seattle Washington"
           className="w-full h-full object-cover"
-          loading="eager"
-        />
+          loading="eager" />
+        
         <div className="absolute inset-0 bg-background/70" />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
       </div>
@@ -23,8 +23,8 @@ const HeroSection = () => {
           src={logoWhite}
           alt=""
           className="w-[500px] md:w-[700px] opacity-[0.06] select-none"
-          aria-hidden="true"
-        />
+          aria-hidden="true" />
+        
       </div>
 
       {/* Content */}
@@ -32,10 +32,10 @@ const HeroSection = () => {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.3 }}
-        >
+          transition={{ duration: 1, delay: 0.3 }}>
+          
           <p className="font-sans text-xs tracking-[0.4em] uppercase text-primary mb-6">
-            Established 2020 &nbsp;·&nbsp; Seattle, Washington
+            Established 2020 Now in Seattle, Washington
           </p>
         </motion.div>
 
@@ -43,8 +43,8 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="font-serif text-5xl md:text-7xl lg:text-8xl font-semibold leading-[1.05] tracking-tight text-foreground mb-8"
-        >
+          className="font-serif text-5xl md:text-7xl lg:text-8xl font-semibold leading-[1.05] tracking-tight text-foreground mb-8">
+          
           Seattle's Elevated Standard
           <br />
           <span className="text-gradient-gold">in Men's Grooming</span>
@@ -54,8 +54,8 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.7 }}
-          className="font-sans text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed"
-        >
+          className="font-sans text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
+          
           Precision haircuts, luxury grooming, and an experience designed for
           modern professionals in Seattle, Washington.
         </motion.p>
@@ -64,18 +64,18 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.9 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4"
-        >
+          className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          
           <a
             href="#booking"
-            className="font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300"
-          >
+            className="font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300">
+            
             Book Appointment
           </a>
           <a
             href="#services"
-            className="font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 border border-primary/30 text-foreground hover:border-primary hover:text-primary transition-colors duration-300"
-          >
+            className="font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 border border-primary/30 text-foreground hover:border-primary hover:text-primary transition-colors duration-300">
+            
             View Services
           </a>
         </motion.div>
@@ -86,12 +86,12 @@ const HeroSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-      >
+        className="absolute bottom-8 left-1/2 -translate-x-1/2">
+        
         <div className="w-px h-16 bg-gradient-to-b from-primary/50 to-transparent" />
       </motion.div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
