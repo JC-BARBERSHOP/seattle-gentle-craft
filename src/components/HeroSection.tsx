@@ -25,7 +25,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3 }}>
           
-          <p className="font-sans text-xs tracking-[0.4em] uppercase text-primary mb-6">
+          <p className="font-sans text-[10px] md:text-xs tracking-[0.4em] uppercase text-primary mb-4 md:mb-6">
             Established 2020 . Now in Seattle, Washington
           </p>
         </motion.div>
@@ -34,7 +34,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="font-serif text-5xl md:text-7xl lg:text-8xl font-semibold leading-[1.05] tracking-tight text-foreground mb-8">
+          className="font-serif text-3xl md:text-7xl lg:text-8xl font-semibold leading-[1.05] tracking-tight text-foreground mb-6 md:mb-8">
           
           Seattle's Elevated Standard
           <br />
@@ -45,7 +45,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.7 }}
-          className="font-sans text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
+          className="font-sans text-base md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 md:mb-12 leading-relaxed">
           
           Precision haircuts, classic scissor cuts, skin fades, beard trims, and luxury barber
           services in Seattle, Washington.
