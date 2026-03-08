@@ -56,8 +56,8 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 0.7 }}
           className="font-sans text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
           
-          Precision haircuts, luxury grooming, and an experience designed for
-          modern professionals in Seattle, Washington.
+          Precision haircuts, skin fades, beard trims, and luxury barber
+          services in Seattle, Washington.
         </motion.p>
 
         <motion.div
