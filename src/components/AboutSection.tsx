@@ -25,7 +25,7 @@ const AboutSection = () => {
           initial={{ opacity: 0, y: 16 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="font-serif text-5xl md:text-7xl font-semibold text-foreground leading-tight"
+          className="font-serif text-3xl md:text-7xl font-semibold text-foreground leading-tight"
         >
           Joan Cruz
         </motion.h2>

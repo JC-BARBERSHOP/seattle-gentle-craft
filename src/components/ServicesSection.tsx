@@ -62,7 +62,7 @@ const ServicesSection = () => {
           <p className="font-sans text-xs tracking-[0.4em] uppercase text-primary mb-4">
             What We Offer
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground">
+          <h2 className="font-serif text-2xl md:text-5xl lg:text-6xl font-semibold text-foreground">
             Services
           </h2>
         </motion.div>

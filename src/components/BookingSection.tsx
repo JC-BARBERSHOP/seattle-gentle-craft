@@ -16,7 +16,7 @@ const BookingSection = () => {
           <p className="font-sans text-xs tracking-[0.4em] uppercase text-primary mb-4">
             Ready?
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-6">
+          <h2 className="font-serif text-2xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-6">
             Book Your Appointment
             <br />
             <span className="text-gradient-gold">in Seattle Today</span>
