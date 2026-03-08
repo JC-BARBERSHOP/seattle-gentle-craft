@@ -26,7 +26,7 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 0.3 }}>
           
           <p className="font-sans text-xs tracking-[0.4em] uppercase text-primary mb-6">
-            Established 2020 Now in Seattle, Washington
+            Established 2020 . Now in Seattle, Washington
           </p>
         </motion.div>
 
