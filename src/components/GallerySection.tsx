@@ -61,6 +61,7 @@ const GallerySection = () => {
             Our Work
           </p>
           <h2 className="font-serif md:text-5xl lg:text-6xl font-semibold text-foreground mb-4 text-4xl">
+          <h2 className="font-serif md:text-5xl lg:text-6xl font-semibold text-foreground mb-4 text-4xl">
             Haircut Portfolio
           </h2>
           <p className="font-sans text-sm md:text-base text-muted-foreground max-w-md mx-auto">
