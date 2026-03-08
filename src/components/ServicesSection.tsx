@@ -5,42 +5,42 @@ const services = [
   {
     title: "Men's Haircut",
     location: "Seattle",
-    price: "$45+",
+    price: "$60",
     description:
       "A premium men's haircut in Seattle tailored to your style and face shape. Joan Cruz delivers precision cuts using advanced techniques, ensuring every detail is refined. From classic styles to modern textures, each haircut includes a consultation, shampoo, and styled finish.",
   },
   {
     title: "Skin Fade",
     location: "Seattle",
-    price: "$50+",
+    price: "$60",
     description:
       "Expert skin fade haircuts in Seattle executed with surgical precision. Whether you prefer a low, mid, or high skin fade, Joan blends seamlessly from skin to length, creating a clean, sharp silhouette. A signature service for the modern professional.",
   },
   {
     title: "Beard Trim",
     location: "Seattle",
-    price: "$25+",
+    price: "$35",
     description:
       "Professional beard trimming and shaping in Seattle. Joan sculpts and defines your beard line with meticulous attention, using precision trimmers and straight-razor detailing. Includes hot towel treatment and beard oil application for a refined finish.",
   },
   {
     title: "Hot Towel Shave",
     location: "Seattle",
-    price: "$40+",
+    price: "$60",
     description:
       "A luxury hot towel shave experience in Seattle that combines tradition with premium products. Multiple hot towel applications, pre-shave oil, lathered with premium cream, and finished with cold towel and aftershave balm. The ultimate grooming ritual.",
   },
   {
     title: "Hair & Beard Combo",
     location: "Seattle",
-    price: "$65+",
+    price: "$80",
     description:
       "The complete grooming experience combining a precision haircut with expert beard shaping in Seattle. This comprehensive service ensures your hair and beard work together in harmony. Includes consultation, shampoo, cut, beard trim, and styled finish.",
   },
   {
     title: "Kids Haircut",
     location: "Seattle",
-    price: "$30+",
+    price: "$50",
     description:
       "Quality kids' haircuts in Seattle in a comfortable, professional environment. Joan brings the same precision and care to younger clients, creating age-appropriate styles that look sharp. A patient, friendly experience for children of all ages.",
   },
