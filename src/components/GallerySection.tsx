@@ -49,13 +49,13 @@ const GallerySection = () => {
   };
 
   return (
-    <section id="gallery" className="section-padding bg-secondary" ref={sectionRef}>
-      <div className="max-w-5xl mx-auto">
+    <section id="gallery" className="py-24 md:py-32 lg:py-40 bg-secondary" ref={sectionRef}>
+      <div className="max-w-4xl mx-auto px-6 md:px-12 lg:px-16">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-20"
         >
           <p className="font-sans text-xs tracking-[0.4em] uppercase text-primary mb-4">
             Our Work
@@ -75,7 +75,7 @@ const GallerySection = () => {
           className="relative"
         >
           <div
-            className="relative w-full aspect-[3/4] md:aspect-[4/5] max-w-lg mx-auto overflow-hidden rounded-sm"
+            className="relative w-full aspect-[3/4] md:aspect-[4/5] max-w-md mx-auto overflow-hidden rounded-sm"
             style={{
               boxShadow: "0 20px 60px -15px hsl(var(--charcoal-dark) / 0.6)",
             }}
