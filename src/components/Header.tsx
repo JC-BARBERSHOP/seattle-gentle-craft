@@ -108,7 +108,7 @@ const Header = () => {
                 scrollToSection("booking");
               }
             }}
-            className="font-sans text-xs tracking-[0.2em] uppercase px-6 py-3 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300"
+            className="font-sans text-[10px] md:text-xs tracking-[0.2em] uppercase px-3 py-2 md:px-6 md:py-3 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300"
           >
             Book Now
           </a>
