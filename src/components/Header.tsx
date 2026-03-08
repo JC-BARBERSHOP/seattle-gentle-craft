@@ -75,7 +75,7 @@ const Header = () => {
             <Phone className="w-4 h-4" />
             <span className="font-sans text-sm">(206) 555-0100</span>
           </a>
-          <div className="hidden md:flex items-center gap-3">
+          <div className="flex items-center gap-3">
             <a
               href="https://www.instagram.com/joancruz_barbershop/?hl=en"
               target="_blank"
