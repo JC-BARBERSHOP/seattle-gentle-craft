@@ -49,8 +49,8 @@ const GallerySection = () => {
   };
 
   return (
-    <section id="gallery" className="section-padding bg-secondary" ref={sectionRef}>
-      <div className="max-w-5xl mx-auto">
+    <section id="gallery" className="py-24 md:py-32 lg:py-40 bg-secondary" ref={sectionRef}>
+      <div className="max-w-4xl mx-auto px-6 md:px-12 lg:px-16">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
