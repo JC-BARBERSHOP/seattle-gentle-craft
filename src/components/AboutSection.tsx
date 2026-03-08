@@ -59,7 +59,7 @@ const AboutSection = () => {
               {[
                 { number: "15+", label: "Years Experience" },
                 { number: "Est.", label: "2020" },
-                { number: "5★", label: "Service" },
+                { number: "5★", label: "GOOGLE RATED" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
                   <p className="font-serif text-3xl font-semibold text-primary">{stat.number}</p>
