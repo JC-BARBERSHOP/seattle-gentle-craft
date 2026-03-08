@@ -23,7 +23,6 @@ const LocationSection = () => {
             Find Us
           </p>
           <h2 className="font-serif md:text-5xl lg:text-6xl font-semibold text-foreground text-4xl">
-          <h2 className="font-serif md:text-5xl lg:text-6xl font-semibold text-foreground text-4xl">
             Location
           </h2>
         </motion.div>
