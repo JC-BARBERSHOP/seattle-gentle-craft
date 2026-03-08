@@ -33,7 +33,7 @@ const Header = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-20">
+      <div className="max-w-7xl mx-auto px-4 md:px-12 flex items-center justify-between h-20">
         <Link to="/" className="flex items-center">
           <motion.img
             src={logoWhite}
