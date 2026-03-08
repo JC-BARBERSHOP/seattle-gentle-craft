@@ -1,41 +1,54 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import joanPortrait from "@/assets/joan-cruz-portrait.png";
 
 const AboutSection = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="about" className="section-padding bg-background" ref={ref}>
-      <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-16 md:gap-24 items-center">
-          {/* Left */}
+    <section id="about" className="py-24 md:py-32 bg-background" ref={ref}>
+      <div className="max-w-6xl mx-auto px-6 md:px-12">
+        <div className="grid md:grid-cols-[42%_1fr] gap-12 md:gap-20 items-center">
+          {/* Left — Portrait */}
           <motion.div
-            initial={{ opacity: 0, x: -40 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, y: 30 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8 }}
+            className="flex justify-center md:justify-start"
           >
-            <p className="font-sans text-xs tracking-[0.4em] uppercase text-primary mb-4">
-              About the Barber
-            </p>
-            <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground mb-8 leading-tight">
-              Precision.
-              <br />
-              Discipline.
-              <br />
-              Craft.
-            </h2>
-            <div className="divider-subtle mb-8" />
+            <div className="relative w-full max-w-sm md:max-w-none">
+              <div className="absolute -inset-4 bg-primary/10 rounded-lg blur-2xl opacity-40" />
+              <img
+                src={joanPortrait}
+                alt="Joan Cruz — Master Barber at JC Barbershop Seattle"
+                className="relative w-full aspect-[3/4] object-cover object-top rounded-md shadow-2xl"
+                loading="lazy"
+              />
+            </div>
           </motion.div>
 
-          {/* Right */}
+          {/* Right — Bio */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="space-y-6"
           >
+            <div>
+              <p className="font-sans text-xs tracking-[0.4em] uppercase text-primary mb-4">
+                About the Barber
+              </p>
+              <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground leading-tight">
+                Joan Cruz
+              </h2>
+              <p className="font-sans text-sm tracking-[0.25em] uppercase text-muted-foreground mt-2">
+                Master Barber
+              </p>
+              <div className="divider-subtle my-8" />
+            </div>
+
             <p className="font-sans text-muted-foreground leading-relaxed">
               Joan Cruz is a master barber with over 15 years of experience in men's grooming. 
               After building a loyal clientele in Miami, Joan founded his barbershop in 2020 
