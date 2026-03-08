@@ -1,16 +1,22 @@
 import { motion, useInView, AnimatePresence } from "framer-motion";
-import { useRef, useState, useCallback, useEffect } from "react";
+import { useRef, useState, useCallback } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import galleryFade from "@/assets/gallery-fade.jpg";
-import galleryBeard from "@/assets/gallery-beard.jpg";
-import galleryInterior from "@/assets/gallery-interior.jpg";
-import galleryHaircut from "@/assets/gallery-haircut.jpg";
+import portfolio1 from "@/assets/portfolio-1.png";
+import portfolio2 from "@/assets/portfolio-2.png";
+import portfolio3 from "@/assets/portfolio-3.png";
+import portfolio4 from "@/assets/portfolio-4.png";
+import portfolio5 from "@/assets/portfolio-5.png";
+import portfolio6 from "@/assets/portfolio-6.png";
+import portfolio7 from "@/assets/portfolio-7.png";
 
 const images = [
-  { src: galleryFade, alt: "Skin fade haircut by Master Barber Joan Cruz in Seattle" },
-  { src: galleryHaircut, alt: "Professional men's haircut Seattle" },
-  { src: galleryBeard, alt: "Precision beard trim Seattle barber" },
-  { src: galleryInterior, alt: "Luxury barbershop interior Seattle" },
+  { src: portfolio1, alt: "Skin fade haircut by Master Barber Joan Cruz in Seattle" },
+  { src: portfolio2, alt: "Mid fade with beard trim by Joan Cruz Seattle" },
+  { src: portfolio3, alt: "Low fade precision haircut Seattle barber" },
+  { src: portfolio4, alt: "Sharp line up and fade haircut Seattle" },
+  { src: portfolio5, alt: "Buzz cut skin fade Seattle barbershop" },
+  { src: portfolio6, alt: "Textured crop with high fade Seattle" },
+  { src: portfolio7, alt: "Classic taper with beard grooming Seattle" },
 ];
 
 const GallerySection = () => {
@@ -20,13 +26,10 @@ const GallerySection = () => {
   const [direction, setDirection] = useState(0);
   const touchStart = useRef<number | null>(null);
 
-  const go = useCallback(
-    (dir: number) => {
-      setDirection(dir);
-      setCurrent((prev) => (prev + dir + images.length) % images.length);
-    },
-    [],
-  );
+  const go = useCallback((dir: number) => {
+    setDirection(dir);
+    setCurrent((prev) => (prev + dir + images.length) % images.length);
+  }, []);
 
   const handleTouchStart = (e: React.TouchEvent) => {
     touchStart.current = e.touches[0].clientX;
@@ -71,9 +74,8 @@ const GallerySection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="relative"
         >
-          {/* Image container */}
           <div
-            className="relative w-full aspect-[4/3] md:aspect-[16/10] overflow-hidden rounded-sm"
+            className="relative w-full aspect-[3/4] md:aspect-[4/5] max-w-lg mx-auto overflow-hidden rounded-sm"
             style={{
               boxShadow: "0 20px 60px -15px hsl(var(--charcoal-dark) / 0.6)",
             }}
@@ -97,24 +99,22 @@ const GallerySection = () => {
             </AnimatePresence>
           </div>
 
-          {/* Navigation arrows */}
           <button
             onClick={() => go(-1)}
             aria-label="Previous image"
-            className="absolute left-3 md:-left-14 top-1/2 -translate-y-1/2 w-10 h-10 md:w-11 md:h-11 rounded-full bg-background/70 backdrop-blur-sm border border-border flex items-center justify-center text-foreground hover:bg-background transition-colors duration-300"
+            className="absolute left-0 md:left-4 lg:-left-14 top-1/2 -translate-y-1/2 w-10 h-10 md:w-11 md:h-11 rounded-full bg-background/70 backdrop-blur-sm border border-border flex items-center justify-center text-foreground hover:bg-background transition-colors duration-300"
           >
             <ChevronLeft className="w-5 h-5" />
           </button>
           <button
             onClick={() => go(1)}
             aria-label="Next image"
-            className="absolute right-3 md:-right-14 top-1/2 -translate-y-1/2 w-10 h-10 md:w-11 md:h-11 rounded-full bg-background/70 backdrop-blur-sm border border-border flex items-center justify-center text-foreground hover:bg-background transition-colors duration-300"
+            className="absolute right-0 md:right-4 lg:-right-14 top-1/2 -translate-y-1/2 w-10 h-10 md:w-11 md:h-11 rounded-full bg-background/70 backdrop-blur-sm border border-border flex items-center justify-center text-foreground hover:bg-background transition-colors duration-300"
           >
             <ChevronRight className="w-5 h-5" />
           </button>
         </motion.div>
 
-        {/* Dots */}
         <div className="flex items-center justify-center gap-2.5 mt-8">
           {images.map((_, i) => (
             <button
