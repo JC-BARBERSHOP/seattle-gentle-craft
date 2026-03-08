@@ -36,7 +36,7 @@ const LocationSection = () => {
         >
           <iframe
             title="JC Barbershop Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.8!2d-122.3365!3d47.6025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z816+1st+Ave+Suite+%231%2C+Seattle%2C+WA+98104!5e0!3m2!1sen!2sus!4v1700000000000"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1345.0!2d-122.33650!3d47.60250!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ab27b1e6269%3A0x3e1f1f8f0e1c1b1a!2s816%201st%20Ave%20%231%2C%20Seattle%2C%20WA%2098104!5e0!3m2!1sen!2sus!4v1700000000000"
             width="100%"
             height="100%"
             style={{ border: 0 }}
