@@ -34,20 +34,20 @@ const LocationSection = () => {
             <div className="text-center">
               <MapPin className="w-10 h-10 text-primary mx-auto mb-4 stroke-[1.5]" />
               <p className="font-sans text-sm text-muted-foreground">
-                ​816 1st Ave #1, Seattle, WA 98104  
+                ​816 1st Ave suite #1, 
+Seattle, WA 98104  
               </p>
               <p className="font-sans text-xs text-muted-foreground mt-1">
-                Seattle, WA
+                ​ 
               </p>
             </div>
           </motion.div>
 
           {/* Info */}
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="space-y-10">
+          <motion.div initial={{ opacity: 0, x: 30 }}
+          animate={inView ? { opacity: 1, x: 0 } : {}}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="space-y-10">
             
             <div>
               <h3 className="font-serif text-2xl font-semibold text-foreground mb-4">
