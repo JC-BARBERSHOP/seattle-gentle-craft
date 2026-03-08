@@ -12,11 +12,11 @@ import portfolio7 from "@/assets/portfolio-7.png";
 const images = [
   { src: portfolio7, alt: "Classic taper with beard grooming Seattle" },
   { src: portfolio1, alt: "Skin fade haircut by Master Barber Joan Cruz in Seattle" },
+  { src: portfolio6, alt: "Textured crop with high fade Seattle" },
   { src: portfolio2, alt: "Mid fade with beard trim by Joan Cruz Seattle" },
   { src: portfolio3, alt: "Low fade precision haircut Seattle barber" },
   { src: portfolio4, alt: "Sharp line up and fade haircut Seattle" },
   { src: portfolio5, alt: "Buzz cut skin fade Seattle barbershop" },
-  { src: portfolio6, alt: "Textured crop with high fade Seattle" },
 ];
 
 const GallerySection = () => {
