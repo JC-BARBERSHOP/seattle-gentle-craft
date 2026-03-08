@@ -54,9 +54,9 @@ const LocationSection = () => {
                 Joan Cruz Barbershop
               </h3>
               <p className="font-sans text-muted-foreground leading-relaxed">
-                Serving Downtown Seattle, Capitol Hill, West Seattle, and the greater 
-                Seattle metropolitan area. Your premier destination for luxury men's 
-                grooming in Seattle, Washington.
+                ​Located in the heart of Downtown Seattle, Joan Cruz Barbershop offers precision haircuts, skin fades, and premium men’s grooming in a clean, modern environment. Book your appointment and experience a higher standard of barbering.
+              
+
               </p>
             </div>
 
