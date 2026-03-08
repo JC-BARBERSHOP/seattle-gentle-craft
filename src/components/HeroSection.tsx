@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-barbershop.jpg";
-import logoWhite from "@/assets/logo-white.png";
+
 
 const HeroSection = () => {
   return (
@@ -17,15 +17,6 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
       </div>
 
-      {/* Watermark logo */}
-      <div className="absolute inset-0 flex items-center justify-center z-[1] pointer-events-none">
-        <img
-          src={logoWhite}
-          alt=""
-          className="w-[500px] md:w-[700px] opacity-[0.06] select-none"
-          aria-hidden="true" />
-        
-      </div>
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
