@@ -34,7 +34,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className="font-serif text-3xl md:text-7xl lg:text-8xl font-semibold leading-[1.05] tracking-tight text-foreground mb-6 md:mb-8">
+          className="font-serif text-4xl md:text-7xl lg:text-8xl font-semibold leading-[1.05] tracking-tight text-foreground mb-6 md:mb-8">
           
           Seattle's Elevated Standard
           <br />
