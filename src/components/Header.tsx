@@ -28,11 +28,11 @@ const Header = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-background/95 backdrop-blur-md border-b border-border"
-          : "bg-transparent"
-      }`}
-    >
+      scrolled ?
+      "bg-background/95 backdrop-blur-md border-b border-border" :
+      "bg-transparent"}`
+      }>
+      
       <div className="max-w-7xl mx-auto px-4 md:px-12 flex items-center justify-between h-20">
         <Link to="/" className="flex items-center">
           <motion.img
@@ -40,40 +40,40 @@ const Header = () => {
             alt="JC Barbershop - Premium Men's Grooming Seattle"
             className="h-10 md:h-12 w-auto"
             whileHover={{ opacity: 0.8, scale: 1.02 }}
-            transition={{ duration: 0.3 }}
-          />
+            transition={{ duration: 0.3 }} />
+          
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          {isHome ? (
-            <>
-              {["About", "Services", "Gallery", "Location"].map((item) => (
-                <button
-                  key={item}
-                  onClick={() => scrollToSection(item.toLowerCase())}
-                  className="font-sans text-sm tracking-wider uppercase text-muted-foreground hover:text-primary transition-colors duration-300"
-                >
+          {isHome ?
+          <>
+              {["About", "Services", "Gallery", "Location"].map((item) =>
+            <button
+              key={item}
+              onClick={() => scrollToSection(item.toLowerCase())}
+              className="font-sans text-sm tracking-wider uppercase text-muted-foreground hover:text-primary transition-colors duration-300">
+              
                   {item}
                 </button>
-              ))}
-            </>
-          ) : (
-            <Link
-              to="/"
-              className="font-sans text-sm tracking-wider uppercase text-muted-foreground hover:text-primary transition-colors duration-300"
-            >
+            )}
+            </> :
+
+          <Link
+            to="/"
+            className="font-sans text-sm tracking-wider uppercase text-muted-foreground hover:text-primary transition-colors duration-300">
+            
               Home
             </Link>
-          )}
+          }
         </nav>
 
         <div className="flex items-center gap-2 md:gap-4">
           <a
             href="tel:+12065550100"
-            className="hidden md:flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
-          >
+            className="hidden md:flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+            
             <Phone className="w-4 h-4" />
-            <span className="font-sans text-sm">(206) 555-0100</span>
+            <span className="font-sans text-sm">(206) 397-8049 </span>
           </a>
           <div className="flex items-center gap-2 md:gap-3">
             <a
@@ -81,8 +81,8 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-opacity duration-300 hover:opacity-80"
-              aria-label="Instagram"
-            >
+              aria-label="Instagram">
+              
               <Instagram className="w-3.5 h-3.5 md:w-4 md:h-4" />
             </a>
             <a
@@ -90,8 +90,8 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-opacity duration-300 hover:opacity-80"
-              aria-label="Google Reviews"
-            >
+              aria-label="Google Reviews">
+              
               <svg className="w-3.5 h-3.5 md:w-4 md:h-4" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" />
                 <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
@@ -108,14 +108,14 @@ const Header = () => {
                 scrollToSection("booking");
               }
             }}
-            className="font-sans text-[10px] md:text-xs tracking-[0.15em] md:tracking-[0.2em] uppercase px-3 py-2 md:px-6 md:py-3 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300 inline-flex items-center justify-center leading-none"
-          >
+            className="font-sans text-[10px] md:text-xs tracking-[0.15em] md:tracking-[0.2em] uppercase px-3 py-2 md:px-6 md:py-3 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300 inline-flex items-center justify-center leading-none">
+            
             Book Now
           </a>
         </div>
       </div>
-    </motion.header>
-  );
+    </motion.header>);
+
 };
 
 export default Header;
