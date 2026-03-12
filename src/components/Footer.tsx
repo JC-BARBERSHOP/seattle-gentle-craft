@@ -11,8 +11,8 @@ const Footer = () => {
             <img
               src={logoWhite}
               alt="JC Barbershop Seattle"
-              className="h-7 w-auto mb-4"
-            />
+              className="h-7 w-auto mb-4" />
+            
             <p className="font-sans text-sm text-muted-foreground leading-relaxed">
               Seattle's elevated standard in men's grooming. Precision haircuts, 
               luxury grooming, and an experience designed for modern professionals.
@@ -26,20 +26,20 @@ const Footer = () => {
             </h4>
             <nav className="space-y-3">
               {[
-                { label: "Best Barber in Seattle", to: "/best-barber-seattle" },
-                { label: "Men's Haircut Seattle", to: "/mens-haircut-seattle" },
-                { label: "Fade Haircut Seattle", to: "/fade-haircut-seattle" },
-                { label: "Beard Trim Seattle", to: "/beard-trim-seattle" },
-                { label: "Barbershop Near Me", to: "/seattle-barbershop-near-me" },
-              ].map((link) => (
-                <Link
-                  key={link.to}
-                  to={link.to}
-                  className="block font-sans text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
+              { label: "Best Barber in Seattle", to: "/best-barber-seattle" },
+              { label: "Men's Haircut Seattle", to: "/mens-haircut-seattle" },
+              { label: "Fade Haircut Seattle", to: "/fade-haircut-seattle" },
+              { label: "Beard Trim Seattle", to: "/beard-trim-seattle" },
+              { label: "Barbershop Near Me", to: "/seattle-barbershop-near-me" }].
+              map((link) =>
+              <Link
+                key={link.to}
+                to={link.to}
+                className="block font-sans text-sm text-muted-foreground hover:text-primary transition-colors">
+                
                   {link.label}
                 </Link>
-              ))}
+              )}
             </nav>
           </div>
 
@@ -51,8 +51,8 @@ const Footer = () => {
             <div className="space-y-3 font-sans text-sm text-muted-foreground">
               <p>Joan Cruz Barbershop</p>
               <p>Seattle, WA</p>
-              <a href="tel:+12065550100" className="block hover:text-primary transition-colors">
-                (206) 555-0100
+              <a className="block hover:text-primary transition-colors" href="tel:+12063878049">
+                (206) 387-8049 
               </a>
             </div>
           </div>
@@ -69,8 +69,8 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;

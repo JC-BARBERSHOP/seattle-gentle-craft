@@ -34,10 +34,10 @@ const BookingSection = () => {
               Book Online
             </a>
             <a
-              href="tel:+12065550100"
-              className="font-sans text-xs tracking-[0.2em] uppercase px-12 py-4 border border-primary/30 text-foreground hover:border-primary transition-colors duration-300">
+
+              className="font-sans text-xs tracking-[0.2em] uppercase px-12 py-4 border border-primary/30 text-foreground hover:border-primary transition-colors duration-300" href="tel:+12063878049">
               
-              Call (206) 555-0100
+              Call (206) 387-8049 
             </a>
           </div>
         </motion.div>
