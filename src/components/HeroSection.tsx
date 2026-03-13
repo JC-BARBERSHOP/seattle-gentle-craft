@@ -36,9 +36,9 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 0.5 }}
           className="font-serif text-4xl md:text-7xl lg:text-8xl font-semibold leading-[1.05] tracking-tight text-foreground mb-6 md:mb-8">
           
-          Seattle's Elevated Standard
+          Seattle's Premier Barbershop
           <br />
-          <span className="text-gradient-gold">in Men's Grooming</span>
+          <span className="text-gradient-gold">for Modern Men</span>
         </motion.h1>
 
         <motion.p
