@@ -58,7 +58,9 @@ const SeoPageLayout = ({ title, subtitle, children }: SeoPageLayoutProps) => {
               Book your appointment with Joan Cruz Barbershop in Seattle today.
             </p>
             <a
-              href="/#booking"
+              href="https://jc-barbershop-107540.square.site"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300"
             >
               Book Appointment

@@ -28,7 +28,9 @@ const BookingSection = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="#"
+              href="https://jc-barbershop-107540.square.site"
+              target="_blank"
+              rel="noopener noreferrer"
               className="font-sans text-xs tracking-[0.2em] uppercase px-12 py-4 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300">
               
               Book Online
