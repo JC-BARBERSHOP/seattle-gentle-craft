@@ -93,7 +93,9 @@ const ServicesSection = () => {
                 {service.description}
               </p>
               <a
-              href="#booking"
+              href="https://jc-barbershop-107540.square.site"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block font-sans text-xs tracking-[0.2em] uppercase px-6 py-3 border border-primary/30 text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300">
               
                 Book Now
