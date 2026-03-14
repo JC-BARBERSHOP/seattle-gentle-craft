@@ -28,8 +28,8 @@ const HeroSection = () => {
           <p className="font-serif text-2xl md:text-3xl lg:text-4xl font-semibold text-foreground mb-6 md:mb-8">
             Joan Cruz Barbershop
           </p>
-          <p className="font-sans text-[10px] md:text-xs tracking-[0.4em] uppercase text-primary mb-4 md:mb-6">
-            Established 2020 . Now in Seattle, Washington
+          <p className="font-sans text-[10px] md:text-xs tracking-[0.4em] uppercase text-primary mb-4 md:mb-6">ESTABLISHED 2020 . NOW IN SEATTLE
+
           </p>
         </motion.div>
 
