@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Phone, Instagram } from "lucide-react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import logoWhite from "@/assets/logo-white.png";
 
@@ -100,14 +100,11 @@ const Header = () => {
               </svg>
             </a>
           </div>
-          <a
-            href="https://jc-barbershop-107540.square.site"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/book"
             className="font-sans text-[10px] md:text-xs tracking-[0.15em] md:tracking-[0.2em] uppercase px-3 py-2 md:px-6 md:py-3 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300 inline-flex items-center justify-center leading-none">
-            
             Book Now
-          </a>
+          </Link>
         </div>
       </div>
     </motion.header>);
