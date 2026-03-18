@@ -101,6 +101,20 @@ const ServicesSection = () => {
             </motion.div>
           )}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, delay: 0.8 }}
+          className="text-center mt-16"
+        >
+          <Link
+            to="/book"
+            className="inline-block font-sans text-xs tracking-[0.3em] uppercase px-10 py-4 border border-primary text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+          >
+            View More Services
+          </Link>
+        </motion.div>
       </div>
     </section>);
 
