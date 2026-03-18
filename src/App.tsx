@@ -10,6 +10,7 @@ import MensHaircutSeattle from "./pages/MensHaircutSeattle";
 import FadeHaircutSeattle from "./pages/FadeHaircutSeattle";
 import BeardTrimSeattle from "./pages/BeardTrimSeattle";
 import SeattleBarbershopNearMe from "./pages/SeattleBarbershopNearMe";
+import Book from "./pages/Book";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/fade-haircut-seattle" element={<FadeHaircutSeattle />} />
           <Route path="/beard-trim-seattle" element={<BeardTrimSeattle />} />
           <Route path="/seattle-barbershop-near-me" element={<SeattleBarbershopNearMe />} />
+          <Route path="/book" element={<Book />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
