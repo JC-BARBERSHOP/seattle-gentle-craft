@@ -61,14 +61,11 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 0.9 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4">
           
-          <a
-            href="https://jc-barbershop-107540.square.site"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/book"
             className="font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300">
-            
             Book Appointment
-          </a>
+          </Link>
           <a
             href="#services"
             className="font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 border border-primary/30 text-foreground hover:border-primary hover:text-primary transition-colors duration-300">
