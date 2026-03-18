@@ -27,6 +27,7 @@ const App = () => (
           <Route path="/fade-haircut-seattle" element={<FadeHaircutSeattle />} />
           <Route path="/beard-trim-seattle" element={<BeardTrimSeattle />} />
           <Route path="/seattle-barbershop-near-me" element={<SeattleBarbershopNearMe />} />
+          <Route path="/book" element={<Book />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
