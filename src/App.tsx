@@ -10,6 +10,7 @@ import MensHaircutSeattle from "./pages/MensHaircutSeattle";
 import FadeHaircutSeattle from "./pages/FadeHaircutSeattle";
 import BeardTrimSeattle from "./pages/BeardTrimSeattle";
 import SeattleBarbershopNearMe from "./pages/SeattleBarbershopNearMe";
+import Book from "./pages/Book";
 
 const queryClient = new QueryClient();
 
