@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/hero-barbershop.jpg";
+import heroImage from "@/assets/hero-barbershop.webp";
 
 
 const HeroSection = () => {
