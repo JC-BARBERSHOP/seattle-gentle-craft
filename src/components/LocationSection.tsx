@@ -56,7 +56,7 @@ const LocationSection = () => {
           
           <div className="space-y-1">
             <h3 className="font-serif text-2xl font-semibold text-foreground">
-              JC Barbershop
+              Joan Cruz Barbershop
             </h3>
             <p className="font-sans text-muted-foreground">
               816 1st Ave Suite #1
