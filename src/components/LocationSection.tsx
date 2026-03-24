@@ -35,7 +35,7 @@ const LocationSection = () => {
           className="w-full aspect-[16/7] md:aspect-[21/9] rounded-lg overflow-hidden border border-border">
           
           <iframe
-            title="JC Barbershop Location"
+            title="Joan Cruz Barbershop Location"
             src="https://maps.google.com/maps?q=816+1st+Ave+Suite+1,+Seattle,+WA+98104&t=&z=17&ie=UTF8&iwloc=&output=embed"
             width="100%"
             height="100%"
