@@ -48,6 +48,14 @@ const HeroSection = () => {
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.65 }}
+          className="font-serif text-sm md:text-base tracking-wide text-primary/90 mb-4 italic">
+          First Visit Experience — Enjoy 20% Off Your First Haircut
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.7 }}
           className="font-sans text-base md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 md:mb-12 leading-relaxed">
           
