@@ -67,19 +67,25 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.9 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          
-          <Link
-            to="/book"
-            className="font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300">
-            Book Appointment
-          </Link>
-          <a
-            href="#services"
-            className="font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 border border-primary/30 text-foreground hover:border-primary hover:text-primary transition-colors duration-300">
-            
-            View Services
-          </a>
+          className="flex flex-col items-center gap-3">
+          <p className="font-sans text-[11px] md:text-xs tracking-wide text-primary/70">
+            New clients receive 20% off their first visit
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Link
+              to="/book"
+              className="group relative font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300">
+              Book Appointment
+              <span className="absolute -top-2.5 right-3 font-sans text-[9px] tracking-wider uppercase bg-background/90 text-primary px-2 py-0.5 border border-primary/20">
+                20% Off
+              </span>
+            </Link>
+            <a
+              href="#services"
+              className="font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 border border-primary/30 text-foreground hover:border-primary hover:text-primary transition-colors duration-300">
+              View Services
+            </a>
+          </div>
         </motion.div>
       </div>
 
