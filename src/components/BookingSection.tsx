@@ -27,18 +27,15 @@ const BookingSection = () => {
             with Joan Cruz Barbershop in Seattle, Washington.
           </p>
 
-          <p className="font-sans text-sm text-primary/80 mb-8 italic">
-            First-time client? Enjoy 20% off your first haircut.
+          <p className="font-serif text-sm text-primary/80 mb-8 italic">
+            First-time clients enjoy 20% off.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               to="/book"
-              className="group relative font-sans text-xs tracking-[0.2em] uppercase px-12 py-4 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300">
+              className="font-sans text-xs tracking-[0.2em] uppercase px-12 py-4 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300">
               Book Online
-              <span className="absolute -top-2.5 right-3 font-sans text-[9px] tracking-wider uppercase bg-background/90 text-primary px-2 py-0.5 border border-primary/20">
-                20% Off
-              </span>
             </Link>
             <a
               className="font-sans text-xs tracking-[0.2em] uppercase px-12 py-4 border border-primary/30 text-foreground hover:border-primary transition-colors duration-300" href="tel:+12063878049">
