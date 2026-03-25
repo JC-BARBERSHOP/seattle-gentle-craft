@@ -54,16 +54,34 @@ const LocationSection = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-center mt-12 space-y-6">
           
-          <div className="space-y-1">
-            <h3 className="font-serif text-2xl font-semibold text-foreground">
-              Joan Cruz Barbershop
-            </h3>
-            <p className="font-sans text-muted-foreground">
-              816 1st Ave Suite #1
-            </p>
-            <p className="font-sans text-muted-foreground">
-              Seattle, WA 98104
-            </p>
+          <div className="grid md:grid-cols-2 gap-10 max-w-xl mx-auto text-center md:text-left">
+            <div className="space-y-1">
+              <h3 className="font-serif text-2xl font-semibold text-foreground">
+                Joan Cruz Barbershop
+              </h3>
+              <p className="font-sans text-muted-foreground">
+                816 1st Ave Suite #1
+              </p>
+              <p className="font-sans text-muted-foreground">
+                Seattle, WA 98104
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              <h4 className="font-sans text-xs tracking-[0.3em] uppercase text-primary">
+                Business Hours
+              </h4>
+              <div className="space-y-1 font-sans text-sm text-muted-foreground">
+                <div className="flex justify-between gap-6">
+                  <span>Monday – Friday</span>
+                  <span className="text-foreground">10:00 AM – 7:00 PM</span>
+                </div>
+                <div className="flex justify-between gap-6">
+                  <span>Saturday – Sunday</span>
+                  <span className="text-foreground">Closed</span>
+                </div>
+              </div>
+            </div>
           </div>
 
           <Button asChild variant="outline" size="lg" className="group">

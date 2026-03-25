@@ -52,8 +52,16 @@ const Footer = () => {
               <p>Joan Cruz Barbershop</p>
               <p>Seattle, WA</p>
               <a className="block hover:text-primary transition-colors" href="tel:+12063878049">
-                (206) 387-8049 
+                (206) 387-8049
               </a>
+            </div>
+
+            <h4 className="font-sans text-xs tracking-[0.3em] uppercase text-foreground mt-6 mb-3">
+              Hours
+            </h4>
+            <div className="space-y-1 font-sans text-sm text-muted-foreground">
+              <p>Mon – Fri: 10AM – 7PM</p>
+              <p>Sat – Sun: Closed</p>
             </div>
           </div>
         </div>
