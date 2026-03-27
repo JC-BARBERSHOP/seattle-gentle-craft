@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/book",
+      "destination": "https://jc-barbershop-107540.square.site",
+      "permanent": true
+    }
+  ]
+}
