@@ -86,7 +86,7 @@ const Header = () => {
               <Instagram className="w-3.5 h-3.5 md:w-4 md:h-4" />
             </a>
             <a
-              href="https://www.google.com/search?sca_esv=b964d58e7340a202&sxsrf=ANbL-n5aDcwNgG9ad-AAp8rP3ayii_0RhQ:1772953604402&q=joan+cruz+barbershop+miami+reviews&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOa5K5X5NideuFuv9lQ_6ipOkfgEt4j6J9azh1FuBju6aDhUeGbRcDovqdPmB9AfgFnhnyY6Z26kw7ugB84BS5oxeqWX3_N1BuzigTAMwvOVvmPP8Cw%3D%3D&sa=X&ved=2ahUKEwjsrazu3o-TAxXSODQIHdMCDEgQ9qsLegQIJhAG&biw=390&bih=669&dpr=3#ebo=1"
+              href="https://share.google/cGMoSVO1iuWQnlmYU"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-opacity duration-300 hover:opacity-80"
