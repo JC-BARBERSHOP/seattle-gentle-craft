@@ -27,9 +27,6 @@ const BookingSection = () => {
             with Joan Cruz Barbershop in Seattle, Washington.
           </p>
 
-          <p className="font-serif text-sm text-primary/80 mb-8 italic">
-            First-time clients enjoy 20% off.
-          </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link

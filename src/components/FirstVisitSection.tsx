@@ -21,7 +21,7 @@ const FirstVisitSection = () => {
           </h2>
 
           <p className="font-sans text-base text-muted-foreground max-w-lg mx-auto mb-10 leading-relaxed">
-            Enjoy 20% off your first haircut. Discover why Seattle clients trust Joan Cruz Barbershop
+            Discover why Seattle clients trust Joan Cruz Barbershop
             for precision and premium service.
           </p>
 
