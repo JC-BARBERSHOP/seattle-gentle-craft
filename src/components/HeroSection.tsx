@@ -58,22 +58,17 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.9 }}
-          className="flex flex-col items-center gap-5">
-          <p className="font-serif text-sm md:text-base tracking-wide text-primary/80 italic">
-            First Visit — Enjoy 20% Off Your First Haircut
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              to="/book"
-              className="font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300">
-              Book Appointment
-            </Link>
-            <a
-              href="#services"
-              className="font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 border border-primary/30 text-foreground hover:border-primary hover:text-primary transition-colors duration-300">
-              View Services
-            </a>
-          </div>
+          className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <Link
+            to="/book"
+            className="font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 bg-primary text-primary-foreground hover:bg-gold-light transition-colors duration-300">
+            Book Appointment
+          </Link>
+          <a
+            href="#services"
+            className="font-sans text-xs tracking-[0.2em] uppercase px-10 py-4 border border-primary/30 text-foreground hover:border-primary hover:text-primary transition-colors duration-300">
+            View Services
+          </a>
         </motion.div>
       </div>
 
