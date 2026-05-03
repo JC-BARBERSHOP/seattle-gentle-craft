@@ -11,7 +11,7 @@ const Footer = () => {
             <img
               src={logoWhite}
               alt="JC Barbershop Seattle"
-              className="h-32 w-auto mb-4" />
+              className="h-48 w-auto mb-4" />
             
             <p className="font-sans text-sm text-muted-foreground leading-relaxed">
               Seattle's elevated standard in men's grooming. Precision haircuts, 
