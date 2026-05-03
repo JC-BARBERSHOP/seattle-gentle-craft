@@ -33,12 +33,12 @@ const Header = () => {
       "bg-transparent"}`
       }>
       
-      <div className="max-w-7xl mx-auto px-4 md:px-12 flex items-center justify-between h-24 md:h-28">
+      <div className="max-w-7xl mx-auto px-4 md:px-12 flex items-center justify-between h-36 md:h-44">
         <Link to="/" className="flex items-center">
           <motion.img
             src={logoWhite}
             alt="JC Barbershop - Premium Men's Grooming Seattle"
-            className="h-16 md:h-20 w-auto py-1"
+            className="h-32 md:h-40 w-auto py-1"
             whileHover={{ opacity: 0.8, scale: 1.02 }}
             transition={{ duration: 0.3 }} />
           
