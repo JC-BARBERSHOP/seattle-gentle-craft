@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Phone, Instagram } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import logoWhite from "@/assets/logo-white.webp";
+import logoWhite from "@/assets/logo-joan-cruz.png";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
