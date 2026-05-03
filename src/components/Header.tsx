@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Phone, Instagram } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import logoWhite from "@/assets/logo-white.webp";
+import logoWhite from "@/assets/logo-joan-cruz.png";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -38,7 +38,7 @@ const Header = () => {
           <motion.img
             src={logoWhite}
             alt="JC Barbershop - Premium Men's Grooming Seattle"
-            className="h-10 md:h-12 w-auto"
+            className="h-12 md:h-14 w-auto"
             whileHover={{ opacity: 0.8, scale: 1.02 }}
             transition={{ duration: 0.3 }} />
           
