@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logoWhite from "@/assets/logo-white.webp";
+import logoWhite from "@/assets/logo-joan-cruz.png";
 
 const Footer = () => {
   return (
