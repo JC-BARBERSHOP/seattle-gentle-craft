@@ -38,7 +38,7 @@ const Header = () => {
           <motion.img
             src={logoWhite}
             alt="JC Barbershop - Premium Men's Grooming Seattle"
-            className="h-48 md:h-60 w-auto py-1"
+            className="h-48 md:h-60 w-auto block"
             whileHover={{ opacity: 0.8, scale: 1.02 }}
             transition={{ duration: 0.3 }} />
           
