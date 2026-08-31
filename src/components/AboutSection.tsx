@@ -72,15 +72,17 @@ const AboutSection = () => {
             the discipline and precision of his craft.
           </p>
           <p className="font-sans text-muted-foreground leading-relaxed">
-            Now relocating to Seattle, Joan brings that same standard of excellence
-            to the Pacific Northwest. As a professional barber in Seattle, his focus
-            remains on detail, consistency, and service that exceeds expectations.
+            Now in Seattle, Joan brings that same standard of excellence
+            to the Pacific Northwest through a boutique barbershop experience
+            built around personalized, one-on-one service. Every appointment is
+            directly with Joan, allowing his focus to remain on detail,
+            consistency, and service that exceeds expectations.
             Joan is also bilingual, offering services comfortably in both English and Spanish.
           </p>
           <p className="font-sans text-muted-foreground leading-relaxed">
             Whether you're looking for a precision skin fade, a classic taper, or
             expert beard grooming, Joan Cruz Barbershop is Seattle's destination for
-            men's grooming at its finest.
+            personalized men's grooming at its finest.
           </p>
 
           <div className="grid grid-cols-3 gap-6 pt-8">
