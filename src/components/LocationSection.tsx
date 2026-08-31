@@ -74,7 +74,7 @@ const LocationSection = () => {
               <div className="space-y-1 font-sans text-sm text-muted-foreground">
                 <div className="flex justify-between gap-6">
                   <span>Monday – Friday</span>
-                  <span className="text-foreground">10:00 AM – 7:00 PM</span>
+                  <span className="text-foreground">10:00 AM – 6:00 PM</span>
                 </div>
                 <div className="flex justify-between gap-6">
                   <span>Saturday – Sunday</span>
