@@ -50,8 +50,9 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.7 }}
           className="font-sans text-base md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 md:mb-12 leading-relaxed">
-          Precision haircuts, classic scissor cuts, skin fades, beard trims, and luxury barber
-          services in Seattle, Washington.
+          An elevated, one-on-one boutique barbershop experience in the heart of
+          Seattle, specializing in precision haircuts, classic scissor cuts, skin
+          fades, and expert beard grooming.
         </motion.p>
 
         <motion.div
