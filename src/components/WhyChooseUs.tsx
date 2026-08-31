@@ -26,10 +26,10 @@ const WhyChooseUs = () => {
           className="text-center mb-20">
           
           <p className="font-sans text-xs tracking-[0.4em] uppercase text-primary mb-4">
-            The Boutique Difference
+            The Difference
           </p>
           <h2 className="font-serif md:text-5xl lg:text-6xl font-semibold text-foreground text-4xl">
-            Why Choose Us
+            The Boutique Difference
           </h2>
           <p className="font-sans text-base md:text-lg text-muted-foreground mt-5 max-w-xl mx-auto leading-relaxed">
             A more personal approach to men's grooming in Seattle.
@@ -58,9 +58,9 @@ const WhyChooseUs = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-center mt-20">
           
-          <p className="font-sans text-xs tracking-[0.4em] uppercase text-primary mb-4">
+          <h3 className="font-serif text-2xl md:text-3xl font-semibold text-foreground mb-4">
             Experience the Boutique Difference
-          </p>
+          </h3>
           <p className="font-sans text-sm md:text-base text-muted-foreground mb-8">
             Reserve your one-on-one appointment with Joan.
           </p>
